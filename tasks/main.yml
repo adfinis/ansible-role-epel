@@ -1,0 +1,5 @@
+---
+- import_tasks: installation.yml
+  tags:
+    - 'role::epel'
+    - 'role::epel:install'
