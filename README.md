@@ -30,3 +30,11 @@ epel_repo_enabled_by_default: False
   roles:
      - { role: epel }
 ```
+
+## License
+[GPL-3.0](https://github.com/adfinis-sygroup.ch/ansible-role-epel/blob/master/LICENSE)
+
+## Author Information
+epel role was written by:
+
+* Adfinis SyGroup AG | [Website](https://www.adfinis-sygroup.ch/) | [Twitter](https://twitter.com/adfinissygroup) | [GitHub](https://github.com/adfinis-sygroup)
