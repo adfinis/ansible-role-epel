@@ -1,17 +1,17 @@
 ---
-- name: Check if EPEL repo is already configured
+- name: check if epel repo is already configured
   stat:
     path: "{{ epel_repofile_path }}"
-  register: epel_repofile_result
+  register: epel_register_repofile
 
-- name: Import EPEL GPG key.
+- name: import epel gpg key
   rpm_key:
     key: "{{ epel_repo_gpg_key_url }}"
     state: present
-  when: not epel_repofile_result.stat.exists
+  when: not epel_register_repofile.stat.exists
   ignore_errors: "{{ ansible_check_mode }}"
 
-- name: Install EPEL repo
+- name: install epel repo
   yum_repository:
     name: "{{ epel_repo_name }}"
     file: "{{ epel_repofile_path }}"
