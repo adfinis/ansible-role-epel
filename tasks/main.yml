@@ -3,3 +3,4 @@
   tags:
     - 'role::epel'
     - 'role::epel:install'
+  when: ansible_os_family == 'RedHat'
