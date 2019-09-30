@@ -5,7 +5,7 @@ dependencies: []
 galaxy_info:
   role_name: 'epel'
   author: 'Adfinis SyGroup AG'
-  description: 'Install EPEL repository on a host'
+  description: 'Install EPEL repository on a RHEL/CentOS host'
   company: 'Adfinis SyGroup AG'
   license: 'GNU General Public License v3'
   min_ansible_version: '2.1.0'

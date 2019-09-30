@@ -1,5 +1,9 @@
 # Ansible Role: EPEL Repository
 
+[![GitHub](https://img.shields.io/github/license/adfinis-sygroup/ansible-role-epel?style=flat-square)](https://github.com/adfinis-sygroup.ch/ansible-role-epel/blob/master/LICENSE)
+[![Travis (.org)](https://img.shields.io/travis/adfinis-sygroup/ansible-role-epel?style=flat-square)](https://travis-ci.org/adfinis-sygroup/ansible-role-epel)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-adfinis--sygroup.epel-660198.svg?style=flat-square)](https://galaxy.ansible.com/adfinis-sygroup/epel)
+
 Installs the [EPEL repository](https://fedoraproject.org/wiki/EPEL) (Extra Packages for Enterprise Linux) for RHEL/CentOS.
 
 ## Role Variables
